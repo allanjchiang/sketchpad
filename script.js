@@ -1,3 +1,4 @@
 const container = document.querySelector('.container');
 
-const div2 = document.createElement('div');
+const div1 = document.createElement('div');
+div1.classList.add('div1');
