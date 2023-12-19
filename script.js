@@ -3,7 +3,7 @@ const divs = document.querySelectorAll('div');
 
 divs.forEach((div) => {
     div.addEventListener('mouseenter', () => {
-        alert("Hello world");
+        divs.classList.add('hover');
     });
 });
 
