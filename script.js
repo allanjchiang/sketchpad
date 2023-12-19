@@ -5,6 +5,10 @@ divs.forEach((div) => {
     div.addEventListener('mouseenter', () => {
         div.classList.add('hover');
     });
+
+    div.addEventListener('mouseleave', () => {
+        div.classList.add('hoverLeave');
+    });
 });
 
 for(let i = 0; i <= 256; i++) {
