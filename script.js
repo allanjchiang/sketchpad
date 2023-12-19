@@ -1,8 +1,8 @@
-const promptTest = document.querySelector('.prompt');
+const prompt = document.querySelector('.prompt');
 const container = document.querySelector('.container');
 
-promptTest.addEventListener('click', () => {
-    let prompt = prompt("What size were you after?");
+prompt.addEventListener('click', () => {
+    
 });
 
 
