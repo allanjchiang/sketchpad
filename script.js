@@ -11,10 +11,10 @@ const divs = document.querySelectorAll('div');
 
 divs.forEach((div) => {
     div.addEventListener('mouseenter', () => {
-        div.classList.add('hover');
+        div.style.backgroundColor('lightgreen');
     });
 
     div.addEventListener('mouseleave', () => {
-        div.classList.add('hoverLeave');
+        div.style.backgroundColor('black');
     });
 });
