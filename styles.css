@@ -7,6 +7,7 @@
 }
 
 .div1 {
+    flex-basis: calc(33.33% - 20px);
     flex: 1;
     box-sizing: border-box;
     border: 1px solid #000;
