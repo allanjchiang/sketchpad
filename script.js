@@ -2,7 +2,7 @@ const prompt = document.querySelector('.prompt');
 const container = document.querySelector('.container');
 
 prompt.addEventListener('click', () => {
-    prompt("Enter the preferred size of your grid.");
+    alert("Hello world");
 });
 
 
