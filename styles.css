@@ -5,10 +5,7 @@
 }
 
 .div1 {
-    margin: 1px;
-    min-width: 10px;
-    min-height: 10px;
-    background-color: black;
     flex: 1;
+    box-sizing: border-box;
 }
 
