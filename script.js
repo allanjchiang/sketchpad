@@ -7,7 +7,7 @@ for(let i = 0; i <= 256; i++) {
     container.appendChild(div1);
 }
 
-const divs = document.querySelectorAll('div');
+const divs = document.querySelectorAll('.div1');
 
 divs.forEach((div) => {
     div.addEventListener('mouseenter', () => {
