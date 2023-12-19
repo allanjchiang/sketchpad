@@ -20,6 +20,6 @@ divs.forEach((div) => {
     });
 
     div.addEventListener('mouseleave', () => {
-        div.style.backgroundColor = 'black';
+        div.style.backgroundColor = 'white';
     });
 });
