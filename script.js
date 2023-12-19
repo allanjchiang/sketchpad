@@ -1,3 +1,4 @@
+const prompt = document.querySelector('.prompt');
 const container = document.querySelector('.container');
 
 
