@@ -1,6 +1,10 @@
 const prompt = document.querySelector('.prompt');
 const container = document.querySelector('.container');
 
+prompt.addEventListener('click', () => {
+    prompt("Enter the preferred size of your grid.");
+});
+
 
 for(let i = 0; i <= 256; i++) {
     const div1 = document.createElement('div');
