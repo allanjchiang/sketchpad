@@ -23,3 +23,7 @@ body, html {
     transition: background-color 0.3s;
 }
 
+.grid-item:hover {
+    background-color: #e74c3c;
+}
+
