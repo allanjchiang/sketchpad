@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     changeSizeButton.addEventListener('click', function () {
         const newSize = prompt('Enter the new grid size:');
         if (newSize && !isNaN(newSize)) {
-            gridSize = parseInt(newSize);
+            gridSize = Math.min(Math.max(parseInt(newSize), 1), 100);
             createGrid(gridSize);
         }
     });
