@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const square = document.createElement('div');
             square.className = 'grid-item';
             square.textContent = i;
-            square.style.height = `${size}`
+            square.style.height = `calc(100% / ${size} - 4px)`
             gridContainer.appendChild(square);
         }
     }
