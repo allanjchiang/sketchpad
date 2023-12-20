@@ -3,4 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const changeSizeButton = document.getElementById('change-size');
 
     let gridSize = 16;
+
+    createGrid(gridSize);
 })
