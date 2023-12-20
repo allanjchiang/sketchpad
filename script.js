@@ -12,5 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
             gridSize = parseInt(newSize);
             createGrid(gridSize);
         }
-    })
+    });
+
+    function createGrid(size) {
+        gridContainer.innerHTML = '';
+    }
 })
