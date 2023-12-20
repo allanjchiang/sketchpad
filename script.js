@@ -5,4 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let gridSize = 16;
 
     createGrid(gridSize);
+
+    changeSizeButton.addEventListener('click', function () {
+        const newSize = prompt('Enter the new grid size:');
+    })
 })
