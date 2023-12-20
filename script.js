@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         for(let i = 0; i <= size * size; i++) {
             const square = document.createElement('div');
             square.className = 'grid-item';
+            square.textContent = i;
         }
     }
 })
