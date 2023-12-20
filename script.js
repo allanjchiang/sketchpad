@@ -6,7 +6,7 @@ size.addEventListener('click', () => {
 });
 
 
-for(let i = 0; i <= 256; i++) {
+for(let i = 0; i <= sizeTest * sizeTest; i++) {
     const div1 = document.createElement('div');
     div1.classList.add('div1');
     container.appendChild(div1);
