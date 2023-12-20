@@ -8,5 +8,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     changeSizeButton.addEventListener('click', function () {
         const newSize = prompt('Enter the new grid size:');
+        if (newSize && !isNaN(newSize)) {
+            gridSize = parseInt(newSize);
+            createGrid(gridSize);
+        }
     })
 })
