@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const square = document.createElement('div');
             square.className = 'grid-item';
             square.textContent = i;
-            square.style.height = `calc(100% / ${size} - 4px)`
-            square.style.width = `calc(100% / ${size} - 4px)`
+            square.style.height = `calc(100% / ${size})`
+            square.style.width = `calc(100% / ${size})`
             gridContainer.appendChild(square);
         }
     }
