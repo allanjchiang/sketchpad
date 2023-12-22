@@ -19,8 +19,8 @@ body, html {
     background-color: #3498db;
     color: #fff;
     margin: 2px;
-    width: calc(100% / 16);
-    height: calc(100% / 16);
+    width: calc(100% / 16 - 4px);
+    height: calc(100% / 16 - 4px);
     transition: background-color 0.3s;
     box-sizing: border-box;
 }
