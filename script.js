@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function createGrid(size) {
         gridContainer.innerHTML = '';
 
-        for(let i = 0; i <= size * size; i++) {
+        for(let i = 0; i < size * size; i++) {
             const square = document.createElement('div');
             square.className = 'grid-item';
             square.textContent = i;
